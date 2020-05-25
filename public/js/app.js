@@ -4,7 +4,7 @@ function main()
     var place=document.getElementById('place').value.toLowerCase()
     var msg=document.getElementById('msg')
 
-    fetch('http://localhost:3000/weather?address='+place).then((response) => {
+    fetch('/weather?address='+place).then((response) => {
     response.json().then((data) => {
         if(data.error)
         {
