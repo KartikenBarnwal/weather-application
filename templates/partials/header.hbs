@@ -1,0 +1,35 @@
+<style>
+    .header{
+        text-align: center;
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    marquee{
+        background-color: black;
+        height: 50px;
+    }
+    .header a{
+        text-decoration: none;
+        color: silver;
+        font-size: 180%;
+        background-color: black;
+        padding: 10px;
+        border: solid 1px darkgoldenrod;
+        border-radius: 20px;
+        margin:2%;
+        transition: 0.6s ease;
+    }
+    {{!-- a:hover{ --}}
+        transform: scale(2);
+    }
+</style>
+
+<marquee scrollamount="9"><h1 style="color:silver; text-align: center;">{{title}}</h1></marquee>
+
+<div class="header">
+    <a href="/">Weather</a>
+    <a href="/about">About</a>
+</div>
+
