@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url('https://papers.co/wallpaper/papers.co-aa99-wallpaper-europe-and-africa-worldmap-41-iphone-wallpaper.jpg');
+    background-image: url("../img/wallpaper.jpg");
     background-size: cover;
     max-width: 100vw;
 }
