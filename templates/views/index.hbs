@@ -14,10 +14,16 @@
     <div class="container">
         <input type="text" placeholder="Search a place for Temperature" name="search" id="place" spellcheck="false" autocomplete="off" onkeyup="capitalize()">
         <button type="submit" onclick="main()"><i class="fa fa-search"></i></button>
-        <div class="ans">
+        <div class="ans" style="opacity: 0;">
             <h2 id="msg"></h2>
+            {{!-- <h2 id="maphead">➣Locate on map</h2> --}}
+            <div id="map"></div>
         </div>
     </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7LeWej2Jh0SJ_t-sCCC0xEBNEnaoU1T8&callback=initMap">
+    </script>
+
     {{>footer}}
 </body>
 </html>
